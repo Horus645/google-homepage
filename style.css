@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	font-family: arial,sans-serif;
+	font-size: 15px;
+}
+
+nav{
+	padding-right: 5px;
+}
+
+nav a{
+	color: #000000; 
+	text-decoration: none;
+}
+
+#navbar-options{
+	list-style-type: none;
+	font-size: 13px;
+	display:flex;
+	justify-content: flex-end;
+}
+
+.gmail-images {
+	padding-top: 22px;
+	margin-right: 15px;
+}
+
+#apps img{
+	padding-top: 16px;
+	margin-right: 5px;
+	margin-left: 5px;
+	block-size: 26px;
+}
+
+#profile-pic{
+	padding-top: 10px;
+	margin-left: 5px;
+}
+
+main{
+	margin-top: 217px;
+	margin-bottom: 412px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main form{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+#search-field{
+	margin-top: 20px;
+	height: 44px;
+	width: 560px;
+	border-radius: 30px;
+	border: 1px solid rgb(218, 220, 224);
+	display:flex;
+	align-items: center;
+}
+
+#search-field img{
+	padding-left: 15px;
+	block-size: 20px;
+}
+
+#search-field input{
+	width: 470px;
+}
+
+#search-buttons{
+	width: 270px;
+	margin-top: 30px;
+	display:flex;
+	justify-content: space-between;
+}
+
+#search-buttons input{
+	font-size:14px;
+	height: 35px;
+	width: auto;
+	padding: 8px 15px 8px 15px;
+	border-radius: 5px;
+}
+main form div input{
+	border-style: hidden;
+}
+
+main p{
+	font-size: 13px;
+}
+
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	left: 0px;
+	right: 0px;
+	height: 6em;
+	background-color: rgb(242, 242, 242);
+	display: flex;
+	flex-direction: column;
+}
+
+footer div{
+	color: rgba(0, 0, 0, 0.54);
+	display: flex;
+	border-bottom: 1px solid rgb(218, 220, 224);
+}
+
+footer div a{
+	color: rgba(0, 0, 0, 0.54);
+	text-decoration: none;
+}
+
+footer div p{
+	margin-left: 35px;
+}
+
+footer div ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: start;
+}
+
+#About{
+	flex-grow: 200;
+}
+
+footer div ul li{
+	margin-right: 25px;
+}
+
+#Terms{
+	flex-grow: 1;
+}
